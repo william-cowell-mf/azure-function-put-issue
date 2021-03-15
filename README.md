@@ -1,6 +1,6 @@
 # Azure Function `PUT` issue with 3.0.15417
 
-There is an issue with the Azure Function Runtime Version 3.0.15417.
+There is an issue with the Azure Function Runtime Version 3.0.15417. This repo reproduces the defect. It was created using the Azure tools in Visual Studio Code.
 
 There is a regression preventing empty http route prefix for `HTTP PUT` methods. This worked previously in the previous version used on our production Azure Function App Service instances (Linux, 3.0.15405).
 
